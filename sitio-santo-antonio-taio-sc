@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Terreno Industrial à Venda em Taió – 7 Hectares | Mario Borgonha</title>
+
+  <meta name="description"
+        content="Terreno agricola à venda em Taió SC, com 31 hectares, frente a poucos metros  para a SC-114. Ideal para sitio, chácara, ou para cultivo de várias culturas, ou criação de gado">
+
+  <link rel="canonical" href="https://marioborgonha.github.io/sitio-santo-antonio-taio-sc.html">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="bg-gray-100">
+
+<!-- Cabeçalho -->
+<header class="bg-white shadow p-4 flex justify-between items-center">
+  <h1 class="text-xl font-bold">Mario Borgonha</h1>
+
+  <a href="https://wa.me/5547988227901"
+     class="bg-green-500 text-white px-4 py-2 rounded">
+     WhatsApp
+  </a>
+</header>
+
+<!-- Conteúdo -->
+<main class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded shadow">
+
+  <h2 class="text-3xl font-bold mb-2">
+    Terreno agricola à venda em Taió SC, com 31 hectares, frente a poucos metros  para a SC-114. Ideal para sitio, chácara, ou para cultivo de várias culturas, ou criação de gado">
+  </h2>
+
+  <p class="text-gray-600 mb-4">
+   frente a poucos metros  para a SC-114, santo antonio, entre · Taió / Salete – SC
+  </p>
+
+  <!-- Vídeo -->
+  <div class="aspect-video mb-6">
+    <iframe class="w-full h-full rounded"
+      src="https://www.youtube.com/embed/gBsGGl-y5Qs
+      title="Terreno agricola à venda em Taió SC"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Descrição -->
+  <p class="mb-4">
+    Terreno industrial com área total de 7 hectares, localizado em região
+    estratégica de Taió, com acesso facilitado pela SC-114. Ideal para
+    indústrias, centros logísticos e empreendimentos comerciais.
+  </p>
+
+  <!-- Destaques -->
+  <ul class="list-disc pl-6 mb-6">
+    <li>Área total: 70.000 m²</li>
+    <li>Frente para rodovia SC-114</li>
+    <li>Região industrial e comercial</li>
+    <li>Documentação regular</li>
+  </ul>
+
+  <!-- CTA -->
+  <a href="https://wa.me/5547988227901"
+     class="inline-block bg-green-600 text-white px-6 py-3 rounded text-lg">
+     Falar com o corretor no WhatsApp
+  </a>
+
+</main>
+
+<!-- Rodapé -->
+<footer class="bg-gray-800 text-white text-center p-4 mt-10">
+  © 2025 Mario Borgonha – Corretor de Imóveis
+</footer>
+
+</body>
+</html>
