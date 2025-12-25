@@ -49,25 +49,27 @@
   </h1>
 
   <div class="mt-4 md:mt-6 flex flex-col items-center gap-2">
-    <span class="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full text-base sm:text-lg font-semibold shadow">
-      Role a tela e veja as melhores oportunidades
-    </span>
+  <a href="#lista-imoveis"
+   class="inline-flex items-center gap-2 btn-cta-amarelo text-base sm:text-lg shadow">
+  Role a tela e veja as melhores oportunidades
+</a>
+
 
     <span class="text-green-600 text-3xl animate-bounce">↓</span>
   </div>
 </section>
 
 
-<!-- CTA CONVERSÃO -->
-<section class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 md:p-6 mb-3 md:mb-6 text-center">
+/* CTA amarelo – vitrine (isolado, não interfere no Tailwind) */
+.btn-cta-amarelo {
+  background-color: #FED400;
+  color: #111111;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 9999px;
+  display: inline-block;
+}
 
-  <h2 class="text-lg font-semibold text-gray-800">
-    Está procurando imóvel em Taió ou Alto Vale?
-  </h2>
-
-  <p class="text-sm text-gray-600 mt-1">
-    Fale direto com corretor local e receba atendimento personalizado.
-  </p>
 
   <a href="https://wa.me/5547988227901?text=Olá,%20estou%20no%20site%20e%20gostaria%20de%20informações%20sobre%20imóveis%20em%20Taió%20e%20região."
      target="_blank"
