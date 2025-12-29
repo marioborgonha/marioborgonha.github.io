@@ -80,7 +80,7 @@ Descrição do imóvel
   Casa à venda no Centro de Taió – Terreno com 2.279 m²                                  
   </p>
 
-<!-- VIDEO VERTICAL RESPONSIVO (MOBILE GRANDE / DESKTOP COMPACTO) -->
+<!-- VIDEO VERTICAL RESPONSIVO (SEM CORTE NO MOBILE) -->
 <div class="video-vertical">
   <iframe
     src="https://www.youtube.com/embed/WwnfEaCkhcg"
@@ -92,7 +92,7 @@ Descrição do imóvel
 </div>
 
 <style>
-/* PADRÃO */
+/* BASE */
 .video-vertical {
   position: relative;
   width: 100%;
@@ -100,10 +100,11 @@ Descrição do imóvel
   margin: 0 auto 2rem;
 }
 
-/* MOBILE: mantém vertical grande */
+/* MOBILE – NUNCA CORTA */
 @media (max-width: 767px) {
   .video-vertical {
     aspect-ratio: 9 / 16;
+    overflow: visible;          /* 👈 ESSENCIAL */
   }
 
   .video-vertical iframe {
@@ -112,12 +113,12 @@ Descrição do imóvel
   }
 }
 
-/* NOTEBOOK / DESKTOP: COMPACTA ALTURA */
+/* NOTEBOOK / DESKTOP – ALTURA CONTROLADA */
 @media (min-width: 768px) {
   .video-vertical {
-    height: 360px;        /* 👈 ALTURA FINAL IDEAL */
+    height: 360px;
     max-height: 360px;
-    overflow: hidden;
+    overflow: hidden;           /* 👈 SOMENTE NO DESKTOP */
     border-radius: 12px;
   }
 
@@ -127,51 +128,6 @@ Descrição do imóvel
   }
 }
 </style>
-
-
-      src="https://www.youtube.com/embed/WwnfEaCkhcg"
-      title="Casa à venda no Centro de Taió – Terreno com 2.279 m²"
-      style="position:absolute; top:0; left:0; width:100%; height:100%;"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-  </div>
-</div>
-
-
-
-
-
-  <!-- Descrição -->
- <p class="text-gray-500 text-sm mb-6">
-Vídeo de apresentação da Casa à venda no Centro de Taió – Terreno com 2.279 m², acesso fácil Av. João Bertoli e Rua Leopoldo Jacobsen, ideal para moradia, Casa ampla com área de festas, piscina e pomar
-</p>
-
-
-  <!-- Destaques -->
-  <ul class="list-disc pl-6 mb-6">
-    <li>Área total: 2.279 m²m²</li>
-    <li>Frente para a AV. João Bértoli, e funcos para a Rua Leopoldo JacobsenTaió / SC </li>
-    <li>Região central</li>
-    <li>Documentação regular</li>
-  </ul>
-
-  <!-- CTA -->
-  <a href="https://wa.me/5547988227901"
-     class="inline-block bg-green-600 text-white px-6 py-3 rounded text-lg">
-    Falar com corretor em Taió no WhatsApp
-
-  </a>
-<!-- SEO LOCAL -->
-<section class="mt-10 text-sm text-gray-500">
-  <h2 class="font-semibold">Atuação imobiliária em Taió e Alto Vale do Itajaí</h2>
-  <p>
-    Mario Borgonha, Corretor de Imóveis CRECI 13677, atua no mercado imobiliário
-    de Taió, Salete, Pouso Redondo, Rio do Sul e demais cidades do Alto Vale do Itajaí,
-    oferecendo imóveis rurais, agrícolas, comerciais e residenciais.
-  </p>
-</section>
 
   
 </main>
