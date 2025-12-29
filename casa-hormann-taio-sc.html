@@ -80,7 +80,7 @@ Descrição do imóvel
   Casa à venda no Centro de Taió – Terreno com 2.279 m²                                  
   </p>
 
-<!-- BLOCO DE VÍDEO VERTICAL RESPONSIVO (MOBILE OK / DESKTOP CONTROLADO) -->
+<!-- VIDEO VERTICAL RESPONSIVO (MOBILE GRANDE / DESKTOP COMPACTO) -->
 <div class="video-vertical">
   <iframe
     src="https://www.youtube.com/embed/WwnfEaCkhcg"
@@ -92,42 +92,42 @@ Descrição do imóvel
 </div>
 
 <style>
+/* PADRÃO */
 .video-vertical {
   position: relative;
   width: 100%;
   max-width: 520px;
   margin: 0 auto 2rem;
-  aspect-ratio: 9 / 16;
 }
 
-/* DESKTOP / NOTEBOOK */
-@media (min-width: 768px) {
-  .video-vertical {
-    max-height: 480px;   /* CONTROLA ALTURA NO NOTEBOOK */
-    aspect-ratio: auto;
-  }
-
-  .video-vertical iframe {
-    height: 480px;
-  }
-}
-
-/* MOBILE */
+/* MOBILE: mantém vertical grande */
 @media (max-width: 767px) {
   .video-vertical {
     aspect-ratio: 9 / 16;
   }
 
   .video-vertical iframe {
+    width: 100%;
     height: 100%;
   }
 }
 
-.video-vertical iframe {
-  width: 100%;
-  border-radius: 0.75rem;
+/* NOTEBOOK / DESKTOP: COMPACTA ALTURA */
+@media (min-width: 768px) {
+  .video-vertical {
+    height: 360px;        /* 👈 ALTURA FINAL IDEAL */
+    max-height: 360px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .video-vertical iframe {
+    width: 100%;
+    height: 360px;
+  }
 }
 </style>
+
 
       src="https://www.youtube.com/embed/WwnfEaCkhcg"
       title="Casa à venda no Centro de Taió – Terreno com 2.279 m²"
